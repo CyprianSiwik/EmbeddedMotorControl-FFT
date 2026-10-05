@@ -47,9 +47,6 @@ RTC_DS1307 rtc;
 
 
 
-
-
-
 void setup(){
   Serial.begin(9600);
   pinMode(speedPin, OUTPUT);
